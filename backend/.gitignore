@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+*.sqlite3
+*.db
+
+# If you use PostgreSQL or other databases, exclude data dumps
+*.sql
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# VS Code and other IDE settings
+.vscode/
+.idea/
+
+# Secret configuration files
+.env
+*.env
+
+# Mac and Linux
+.DS_Store
+Thumbs.db

@@ -22,3 +22,4 @@ typing_extensions==4.13.2
 tzdata==2025.2
 unrar==0.4
 virtualenv==20.30.0
+gunicorn
