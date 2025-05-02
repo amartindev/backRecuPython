@@ -84,9 +84,6 @@ DATABASES = {
         'PASSWORD': 'qwerty123',
         'HOST': 'localhost',
         'PORT': '3306',
-        'OPTIONS': {
-            'driver': 'mysql.connector.django',
-        }
     }
 }
 
