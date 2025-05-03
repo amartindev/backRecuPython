@@ -62,13 +62,14 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'datosprueba',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'qwerty123',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'JdumGLwhpuwlRYlrQpBSkJsDKxDzdhFJ',
+        'HOST': 'turntable.proxy.rlwy.net',
+        'PORT': '46686',
     }
 }
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
